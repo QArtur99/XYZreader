@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\USER\\.android\\build-cache\\b6659e54af41c26ec713d6bd5e6cf97ab97be164\\output\\res\\values-w500dp-v13\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 54,
+                        "endOffset": 329
+                    }
+                }
+            }
+        ]
+    }
+]
