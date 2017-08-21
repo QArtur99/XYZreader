@@ -72,8 +72,6 @@ public class ArticleDetailActivity extends ActionBarActivity
                     mCursor.moveToPosition(position);
                 }
                 mSelectedItemId = mCursor.getLong(ArticleLoader.Query._ID);
-                ArticleDetailFragment articleDetailFragment = (ArticleDetailFragment) mPagerAdapter.getItem(position);
-                    articleDetailFragment.setOffsetChangeListener();
                 updateUpButtonPosition();
             }
         });
