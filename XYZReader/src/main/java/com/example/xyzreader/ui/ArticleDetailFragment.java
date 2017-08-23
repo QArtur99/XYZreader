@@ -10,8 +10,10 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ShareCompat;
 import android.support.v7.graphics.Palette;
 import android.text.Html;
@@ -22,7 +24,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.android.volley.VolleyError;
@@ -53,7 +54,7 @@ public class ArticleDetailFragment extends Fragment implements
 
     private int mTopInset;
     private View mPhotoContainerView;
-    private LinearLayout fab;
+    private FloatingActionButton fab;
     private ImageView mPhotoView;
     private int mScrollY;
     private boolean mIsCard = false;
@@ -120,12 +121,25 @@ public class ArticleDetailFragment extends Fragment implements
 
     public void setOffsetChangeListener() {
         if (mRootView != null) {
-            fab = mRootView.findViewById(R.id.share_fab);
+            fab = mRootView.findViewById(R.id.fabBottom);
             collapsingToolbar = mRootView.findViewById(R.id.collapsingToolbar);
             toolbarTitleView = mRootView.findViewById(R.id.toolbar_article_title);
             toolbarBylineView = mRootView.findViewById(R.id.toolbar_article_byline);
             AppBarLayout appBarLayout = mRootView.findViewById(R.id.appBar);
             appBarLayout.addOnOffsetChangedListener(this);
+        }
+    }
+
+    public void setFabVisible() {
+        if (fab != null) {
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    if (fab != null) {
+                        fab.setVisibility(View.VISIBLE);
+                    }
+                }
+            }, 50);
         }
     }
 
@@ -156,7 +170,7 @@ public class ArticleDetailFragment extends Fragment implements
 
         mStatusBarColorDrawable = new ColorDrawable(0);
 
-        mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
+        mRootView.findViewById(R.id.fabBottom).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())

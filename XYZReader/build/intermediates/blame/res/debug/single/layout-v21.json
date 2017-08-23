@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_article_list.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\src\\main\\res\\layout-v21\\activity_article_list.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\48e9dd36973321d957b989aa71b80caa1a5a97cf\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },

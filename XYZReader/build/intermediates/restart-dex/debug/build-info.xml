@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1503338195573"
+    timestamp="1503516376350"
     token="-4595547394364752194"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1503337793034"
+        timestamp="1503511787256"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\outputs\apk\XYZReader-debug.apk"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1503337978867"
+        timestamp="1503514666266"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -78,7 +78,21 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1503338195573"
+        timestamp="1503516278048"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1503516376350"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\outputs\apk\XYZReader-debug.apk"

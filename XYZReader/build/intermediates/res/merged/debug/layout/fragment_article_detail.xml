@@ -13,7 +13,6 @@
         android:id="@+id/appBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -33,7 +32,7 @@
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:scaleType="fitXY"
+                    android:scaleType="centerCrop"
                     android:transitionName="poster"
                     app:layout_collapseMode="parallax"/>
 
@@ -127,34 +126,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
+            android:paddingTop="16dp"
             android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
             android:paddingBottom="@dimen/detail_body_bottom_margin"
-            android:textColor="@color/colorPrimary"
-            android:textColorLink="@color/theme_accent"
+            android:textColor="@color/colorText"
             android:textSize="@dimen/detail_body_text_size"/>
 
     </android.support.v4.widget.NestedScrollView>
-
-    <LinearLayout
-        android:id="@+id/share_fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/shape_fab"
-        app:elevation="8dp"
-        app:layout_anchor="@id/appBar"
-        app:layout_anchorGravity="bottom|end">
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fabBottom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_share"
-            app:backgroundTint="#00000000"
-            app:elevation="0dp"
+            android:layout_margin="16dp"
+            app:elevation="6dp"
+            app:layout_anchor="@id/appBar"
+            app:layout_anchorGravity="bottom|end"
             app:fabSize="normal"/>
-    </LinearLayout>
+
 </android.support.design.widget.CoordinatorLayout>

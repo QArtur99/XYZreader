@@ -16,12 +16,11 @@
 -->
 
 <resources>
-    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimary">#388e3c</color>
     <color name="colorPrimaryDark">#212121</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#f44336</color>
     <color name="photo_placeholder">#ccc</color>
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
+    <color name="colorText">#424242</color>
+
     <color name="ltgray">#ffe0e0e0</color>
 </resources>

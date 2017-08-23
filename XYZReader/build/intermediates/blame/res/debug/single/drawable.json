@@ -84,12 +84,12 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\48e9dd36973321d957b989aa71b80caa1a5a97cf\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\48e9dd36973321d957b989aa71b80caa1a5a97cf\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\48e9dd36973321d957b989aa71b80caa1a5a97cf\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\48e9dd36973321d957b989aa71b80caa1a5a97cf\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
@@ -190,10 +190,6 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\48e9dd36973321d957b989aa71b80caa1a5a97cf\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\add_fab_background.xml",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\src\\main\\res\\drawable\\add_fab_background.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
