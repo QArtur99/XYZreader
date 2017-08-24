@@ -426,7 +426,14 @@
                     "endOffset": 2452
                 },
                 "from": {
-                    "file": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\USER\\AndroidStudioProjects\\compact\\Nowy folder\\XYZReader\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 752,
+                        "endColumn": 50,
+                        "endOffset": 798
+                    }
                 }
             },
             {
