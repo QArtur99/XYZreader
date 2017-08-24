@@ -21,6 +21,7 @@
     <color name="colorAccent">#f44336</color>
     <color name="photo_placeholder">#ccc</color>
     <color name="colorText">#424242</color>
+    <color name="background">#FFFFFF</color>
 
     <color name="ltgray">#ffe0e0e0</color>
 </resources>

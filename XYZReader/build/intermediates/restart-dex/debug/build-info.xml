@@ -6,28 +6,34 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1503532807896"
+    timestamp="1503574580849"
     token="-4595547394364752194"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1299" />
+        duration="627" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="120" />
+        duration="103" />
     <task
         name="verifier"
-        duration="19" />
+        duration="31" />
 
+    <artifact
+        location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\outputs\apk\XYZReader-debug.apk"
@@ -35,17 +41,8 @@
 
     <build
         build-mode="FULL"
-        timestamp="1503531548774"
+        timestamp="1503569940465"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="SPLIT_MAIN" />
@@ -73,16 +70,31 @@
         <artifact
             location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1503532807896"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1503574580849"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\USER\AndroidStudioProjects\compact\Nowy folder\XYZReader\build\outputs\apk\XYZReader-debug.apk"
